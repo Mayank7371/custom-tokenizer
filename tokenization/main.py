@@ -3,7 +3,7 @@ import tiktoken
 # Encoder for GPT-4o model
 encoder = tiktoken.encoding_for_model("gpt-4o")
 
-text = "Hey there, my name is Piyush Garg."
+text = "Hey there, my name mayank."
 
 # Tokenization
 tokens = encoder.encode(text)
